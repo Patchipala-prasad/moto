@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+#submit{
+    background-color: blue;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 75px 200px;
+    grid-template-rows: auto auto auto ;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+#sub{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-left: 100px;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto;
+    background-color: mediumslateblue;
+    height: 50px;
+    align-items: center;
+    justify-items: center;
+}
+.child{
+    justify-content: center;
+    color: white;
+}
+#back{
+    height: 300px;
+    background-image: url("/PaymentBilling/resources/images/PaymentBilling.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
+}
+.top{
+    height: 100px;
+    background-color: mediumslateblue;
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#anch{
+	margin-left: 400px;
+	margin-top:20px:
+}
+
+
